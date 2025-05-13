@@ -1,0 +1,63 @@
+#Card{
+    width: 300px;
+    background-color: bisque;
+    padding : 20px;
+    border-radius: 35px;
+    font-family: fantasy;
+    margin : 0 auto;
+    border: 2px solid rgb(100, 188, 188) ;
+     
+    
+
+}
+
+#Card img{
+    
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+h1{
+     
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#Card:hover{
+     background-color: rgb(163, 136, 136);
+      transform: scale(1.05);
+      transition: none;
+}  
+
+
+
+@media(max-width: 600px ) {
+    #card{
+        width:90px;
+    }
+}
+
+#contact-btn{
+    padding: 10px;
+    font-size: medium;
+}
+
+#Nwu img {
+     
+    width: 25px;  
+  height: 25px;
+   position: absolute;
+  left:404px;  
+  top:209px; 
+       
+
+}
+
+ 
+
+
+ 
+ 
